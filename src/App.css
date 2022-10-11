@@ -8,26 +8,7 @@ body {
 
 .head_text {
   margin-top: 146px;
-}
-
-h2 {
-  margin: 19px 123px 15px;
-  font-family: SDGothicNeoaTTF-fSm;
-  font-size: 30px;
-  color: #fff;
-}
-
-h4 {
-  margin: 15px 177px 105px 178px;
-  opacity: 0.9;
-  font-family: SDGothicNeoaTTF-dRg;
-  font-size: 19px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  color: #fff;
+  margin-bottom: 109px;
 }
 
 .content_wrap {
@@ -63,16 +44,12 @@ h4 {
 
 button {
   background-color: transparent;
+  border-color: transparent;
+  cursor: pointer;
 }
 
 button img {
   position: absolute;
   top: 390px;
   right: 30px;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }

@@ -15,8 +15,6 @@ function App() {
     <div className="App">
       <div className="head_text">
         <img src={`${process.env.PUBLIC_URL}img/x.png`} />
-        <h2>인터넷에 연결되어 있지 않아요.</h2>
-        <h4>ERR_INTERNET_DISCONNECTED</h4>
       </div>
       <div className="content_wrap">
         <div className="video">
