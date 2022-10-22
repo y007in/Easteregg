@@ -9,6 +9,18 @@ body {
 .head_text {
   margin-top: 146px;
   margin-bottom: 109px;
+  color: #fff;
+}
+
+.head_text h2 {
+  font-size: 30px;
+  margin-bottom: -15px;
+}
+
+.head_text h4 {
+  font-size: 19px;
+  opacity: 0.6;
+  font-weight: 400;
 }
 
 .content_wrap {
@@ -20,36 +32,41 @@ body {
 
 .video {
   position: absolute;
-}
-
-.text_balloon {
-  margin: 0 auto;
-  position: absolute;
-  left: 195px;
+  margin-top: -50px;
 }
 
 .text {
   position: absolute;
   width: 320px;
-  height: 60px;
-  font-family: SDNemony2cBasicRg;
+  height: auto;
+  padding: 24px 27px;
   font-size: 20px;
   line-height: 1.36;
   color: #fff;
   word-break: keep-all;
   line-break: strict;
-  top: 70px;
-  left: 74px;
+  left: 250px;
+  border-width: 1px;
+  border-radius: 20px;
+  background-color: rgb(100, 100, 100);
+  box-shadow: 0 0 30px 10px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
+}
+
+.text::before {
+  content: "";
+  position: absolute;
+  border-top: 15px solid rgba(100, 100, 100);
+  border-right: 15px solid transparent;
+  top: 102px;
+  left: 20px;
 }
 
 button {
+  position: absolute;
   background-color: transparent;
   border-color: transparent;
   cursor: pointer;
-}
-
-button img {
-  position: absolute;
-  top: 390px;
-  right: 30px;
+  top: 335px;
+  left: 515px;
 }
