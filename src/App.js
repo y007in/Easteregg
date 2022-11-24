@@ -14,13 +14,25 @@ function App() {
   return (
     <div className="App">
       <div className="head_text">
-        <img src={`${process.env.PUBLIC_URL}img/xx.png`} />
+        <img
+          src={`${process.env.PUBLIC_URL}img/xx.png`}
+          width="58px"
+          height="58px"
+        />
         <h2>인터넷에 연결되어있지 않아요.</h2>
         <h4>ERR_INTERNET_DISCONNECTED</h4>
       </div>
       <div className="content_wrap">
         <div className="video">
-          <video src="/whale.mp4" loop autoPlay muted alt="whale dance" />
+          <video
+            src="/whale.mp4"
+            loop
+            autoPlay
+            muted
+            alt="whale dance"
+            width="630px"
+            height="372px"
+          />
         </div>
         <div className="text_balloon">
           <div className="text">{data[getRandomIndex(data.length)].text}</div>
@@ -28,6 +40,8 @@ function App() {
         <button type="button" onClick={reload}>
           <img
             src={`${process.env.PUBLIC_URL}img/reload.png`}
+            width="101px"
+            height="25px"
             alt="reload button"
           />
         </button>
